@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+  background-color: darkslategrey;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: darkslategrey;
+}
+
+h3 {
+  text-align: center;
+  color: darkslategrey;
+}
+
+
+.container {
+  margin-top: 30px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.815);
+  padding: 30px;
+
+}
+
+.tareasList {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.lists{
+
+  display: flex;
+}
+
+.li-red{
+  background-color: #f5c1c6;
+}
+.li-yellow{
+  background-color: #f7e8b8;
+}
+.li-blue{
+  background-color: #a7d2ff;
+}
+input {
+  padding: 15px 10px;
+  width: 100%;
+  outline: none;
+}
+
+.btn-add-red {
+  padding: 5px 15px;
+  color: white;
+  border: none;
+  font-family: fantasy;
+  background-color: rgb(223, 71, 89);
+  font-size: 1.4rem;
+  outline: none;
+}
+.btn-add-yellow {
+  padding: 5px 15px;
+  color: white;
+  border: none;
+  font-family: fantasy;
+  background-color: 	rgb(255,204,0);
+  font-size: 1.4rem;
+  outline: none;
+}
+.btn-add-blue {
+  padding: 5px 15px;
+  color: white;
+  border: none;
+  font-family: fantasy;
+  background-color: rgb(59,155,255);
+  font-size: 1.4rem;
+  outline: none;
+}
+
+
+
+.empty {
+  color: darkslategrey;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  background-color: rgb(54, 100, 100);
+  border-radius: 10px;
+  margin-top: 15px;
+  display: flex;
+}
+
+li p {
+  margin: 0;
+  padding: 15px;
+  width: 100%;
+}
+
+.btn-delete {
+  margin-left: auto;
+  border: none;
+  background-color: brown;
+  color: beige;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 10%;
+  font-size: 1.2rem;
+
+}
+
+.btn-delete:hover {
+  background-color: lightseagreen;
+  cursor: pointer;
+}
